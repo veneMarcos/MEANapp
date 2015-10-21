@@ -1,0 +1,5 @@
+{
+	"directory":"public/vendor",
+    "proxy":"http://mvaraujo:Brq10150@10.2.65.200:8080/",
+    "https-proxy":"http://mvaraujo:Brq10150@10.2.65.200:8080/"    
+}
