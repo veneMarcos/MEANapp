@@ -18,6 +18,11 @@ angular.module('contatooh', ['ngRoute', 'ngResource'])
 		controller: 'ContatoController'
 	});
 
+	$routeProvider.when('/contato', {
+		templateUrl: 'partials/contato.html',
+		controller: 'ContatoController'
+	});
+
 	//Rota padrão, caso a rota informada não exista redirecina para uma padrão
 	$routeProvider.otherwise({redirectTo : 'contatos'});
 });
